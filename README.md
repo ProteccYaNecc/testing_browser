@@ -102,8 +102,7 @@ Commonly Used Chrome Command-Line Flags:
 Create a shortcut to chrome.exe.  
 Right-click the shortcut, select Properties.  
 In the Target field, after chrome.exe, add the desired flags. Example:  
-less  
-Copy code  
+
 ```cmd
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-popup-blocking --incognito
 ```
@@ -111,8 +110,7 @@ Copy code
 ## MacOS/Linux:  
   
 Open a terminal and type:  
-`css`
-Copy code  
+ 
 ```cmd
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-popup-blocking --incognito
 ```

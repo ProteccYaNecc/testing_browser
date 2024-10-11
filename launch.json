@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",                               // Change between "chrome", "msedge" or "firefox"
+            "request": "launch",
+            "name": "Launch web portal",                    // Custom name
+            "url": "<INSERT_URL_HERE>",                     // Your target URL
+            "webRoot": "${workspaceFolder}",                // Current workspace folder. Change to anything if needed
+            "runtimeArgs": [
+                "--disable-features=DarkMode",              // Disable dark mode feature
+                "--force-dark-mode=false",                  // Ensure dark mode is off
+                "--user-data-dir=C:/Temp/ChromeProfile",    // Use a completely different directory than the default user profile to isolate your custom configuration
+                "--no-default-browser-check",               // Skip the default browser check
+                "--disable-popup-blocking=true"             // Disables automatic pop-up blocking
+            ],
+            "sourceMaps": true
+        }
+    ]
+}

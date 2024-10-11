@@ -104,14 +104,18 @@ Right-click the shortcut, select Properties.
 In the Target field, after chrome.exe, add the desired flags. Example:  
 less  
 Copy code  
-~"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-popup-blocking --incognito  ~
+```cmd
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-popup-blocking --incognito
+```
 
 ## MacOS/Linux:  
   
 Open a terminal and type:  
-`css`  
+`css`
 Copy code  
-~/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-popup-blocking --incognito  ~
+```cmd
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-popup-blocking --incognito
+```
 
 ## Comprehensive List:  
 For a comprehensive and up-to-date list of Chrome flags, you can explore:  

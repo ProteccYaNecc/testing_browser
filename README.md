@@ -1,4 +1,4 @@
-# testing-browser
+# testing_browser
 This is a simple, configurable JSON file, with predefined attributes, such as Browser type, separate user folder that isolates it from the default Chrome user AppData folder. 
 It can be used with Edge, Chrome and Firefox
 
